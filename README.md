@@ -14,5 +14,5 @@ You can include these preambles in your project via:
 - Project > New File > From External URL
 
 ### URLs
-- mathematics.tex:
+- mathematics.tex: https://raw.githubusercontent.com/siamakfaal/latex-preambles/main/mathematics.tex
 - graphics.tex: 

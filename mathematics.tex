@@ -1,0 +1,109 @@
+\usepackage{amsmath, amssymb, amsfonts, amsthm, commath}
+\usepackage{upgreek}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+
+% ----------------------------------------------------
+% Sets
+\newcommand{\CC}{\mathbb{C}}  % Math bold C for complex numbers
+\newcommand{\FF}{\mathbb{F}}  % Math bold F 
+\newcommand{\HH}{\mathbb{H}}  % Math bold H for quaternions
+\newcommand{\II}{\mathbb{I}}  % Math bold I
+\newcommand{\NN}{\mathbb{N}}  % Math bold for natural numbers
+\newcommand{\QQ}{\mathbb{Q}}  % Math bold for rational number
+\newcommand{\RR}{\mathbb{R}}  % Math bold for real number
+\newcommand{\ZZ}{\mathbb{Z}}  % Math bold for integers
+
+
+% ----------------------------------------------------
+% Functions
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}    % floor
+\newcommand{\indic}[1]{\chi_{#1}}             % Set indicator
+\newcommand{\bigO}[1]{\mathcal{O}#1}          % Big O notation
+
+% ----------------------------------------------------
+% Set constructors
+\newcommand{\setdef}[2]{\left\{ #1 \, : \, #2  \right\}}  % Example: setdef{x\in\RR}{x > 0}
+
+% ----------------------------------------------------
+% Operators
+\DeclareMathOperator{\diag}{diag}  % Diagonal
+\DeclareMathOperator{\dim}{dim}    % Dimension
+\DeclareMathOperator{\null}{Null}  % Null
+\DeclareMathOperator{\rng}{range}  % Range
+\DeclareMathOperator{\rank}{rank}  % Rank
+\DeclareMathOperator{\sat}{sat}    % Saturation
+\DeclareMathOperator{\sgn}{sgn}    % sign
+\DeclareMathOperator{\spn}{span}   % Span
+
+% ----------------------------------------------------
+% Bold numbers
+\newcommand{\zero}{{\bf 0}}
+\newcommand{\one}{{\bf 1}}
+
+% ----------------------------------------------------
+% Bold lower case letters
+\renewcommand{\a}{{\bf a}}
+\renewcommand{\b}{{\bf b}}
+\renewcommand{\c}{{\bf c}}
+\renewcommand{\d}{{\bf d}}
+\newcommand{\e}{{\bf e}}
+\newcommand{\f}{{\bf f}}
+\newcommand{\g}{{\bf g}}
+\newcommand{\h}{{\bf h}}
+\renewcommand{\i}{{\bf i}}
+\renewcommand{\j}{{\bf j}}
+\renewcommand{\k}{{\bf k}}
+\renewcommand{\l}{{\bf l}}
+\newcommand{\m}{{\bf m}}
+\newcommand{\n}{{\bf n}}
+\renewcommand{\o}{{\bf o}}
+\newcommand{\p}{{\bf p}}
+\newcommand{\q}{{\bf q}}
+\renewcommand{\r}{{\bf r}}
+\newcommand{\s}{{\bf s}}
+\renewcommand{\t}{{\bf t}}
+\renewcommand{\u}{{\bf u}}
+\renewcommand{\v}{{\bf v}}
+\newcommand{\w}{{\bf w}}
+\newcommand{\x}{{\bf x}}
+\newcommand{\y}{{\bf y}}
+\newcommand{\z}{{\bf z}}
+
+% ----------------------------------------------------
+% Bold upper case letters
+\newcommand{\A}{{\bf A}}
+\newcommand{\B}{{\bf B}}
+\newcommand{\C}{{\bf C}}
+\newcommand{\D}{{\bf D}}
+\newcommand{\E}{{\bf E}}
+\newcommand{\F}{{\bf F}}
+\newcommand{\G}{{\bf G}}
+\renewcommand{\H}{{\bf H}}
+\newcommand{\I}{{\bf I}}
+\newcommand{\J}{{\bf J}}
+\newcommand{\K}{{\bf K}}
+\renewcommand{\L}{{\bf L}}
+\newcommand{\M}{{\bf M}}
+\newcommand{\N}{{\bf N}}
+\renewcommand{\O}{{\bf O}}
+\renewcommand{\P}{{\bf P}}
+\newcommand{\Q}{{\bf Q}}
+\newcommand{\R}{{\bf R}}
+\renewcommand{\S}{{\bf S}}
+\newcommand{\T}{{\bf T}}
+\newcommand{\U}{{\bf U}}
+\newcommand{\V}{{\bf V}}
+\newcommand{\W}{{\bf W}}
+\newcommand{\X}{{\bf X}}
+\newcommand{\Y}{{\bf Y}}
+\newcommand{\Z}{{\bf Z}}

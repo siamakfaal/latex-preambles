@@ -11,7 +11,7 @@ Assuming `mathematics.tex` is located in 'preambles/mathematics.tex' folder with
 
 content of `main.tex`
 ```
-\documentclass{minimal}
+\documentclass{article}
 \input{preambles/mathematics}
 
 \begin{document}

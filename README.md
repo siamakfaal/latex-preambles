@@ -24,5 +24,6 @@ You can include these preambles in your project via:
 - Project > New File > From External URL
 
 ### URLs
-- `mathematics.tex`: https://raw.githubusercontent.com/siamakfaal/latex-preambles/main/mathematics.tex
 - `graphics.tex`: https://raw.githubusercontent.com/siamakfaal/latex-preambles/main/graphics.tex
+- `mathematics.tex`: https://raw.githubusercontent.com/siamakfaal/latex-preambles/main/mathematics.tex
+- `theorems.tex`: https://raw.githubusercontent.com/siamakfaal/latex-preambles/main/theorems.tex
